@@ -1,15 +1,7 @@
 """
-HackerRank Algorithmic Crush problem
+HackerRank Algorithmic Crush problem:
+https://www.hackerrank.com/challenges/crush
 
-You are given a list of size NN, initialized with zeroes. You have to perform MM operations on the list and output the maximum of final values of all the NN elements in the list. For every operation, you are given three integers aa, bb and kk and you have to add value kk to all the elements ranging from index aa to bb(both inclusive).
-
-Input Format
-First line will contain two integers NN and MM separated by a single space.
-Next MM lines will contain three integers aa, bb and kk separated by a single space.
-Numbers in list are numbered from 11 to NN.
-
-Output Format
-A single line containing maximum value in the updated list.
 """
 
 
@@ -30,4 +22,3 @@ for j in range(n):
         max_number = x
 
 print(max_number)
-
